@@ -129,8 +129,10 @@ void _pre() {
 
 
 void _main(int tc) {
-
-
+    int n; cin >> n;
+    for (int i = 1; i <= n; i++) {
+        cout << i << endl;
+    }
 }
 
 i32 main() {
